@@ -74,9 +74,12 @@ function PrevArrowButton(props: any) {
 }
 
 const ArtistCard = ({ artist }: { artist: Record<string, any> }) => {
+
   const classes = useStyles();
-  const images = _.get(artist, 'artistImage', []) || [];
+  const images = _.get(artist, 'artist_image', []) || [];
   const names = _.get(artist, 'artistName', []) || [];
+
+  console.log("[artist]",images);
 
   return (
     <Box
