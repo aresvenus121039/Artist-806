@@ -1,0 +1,6 @@
+export const REQUEST_STATUS = {
+  IDLE: 'IDLE',
+  LOADING: 'LOADING',
+  SUCCEEDED: 'SUCCEEDED',
+  FAILED: 'FAILED',
+};

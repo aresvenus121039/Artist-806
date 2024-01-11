@@ -1,0 +1,314 @@
+[
+  {
+    "id": 110962,
+    "name": "Alaska",
+    "latitude": 61.385,
+    "longitude": -152.2683
+  },
+  {
+    "id": 120968,
+    "name": "Alabama",
+    "latitude": 32.799,
+    "longitude": -86.8073
+  },
+  {
+    "id": 130968,
+    "name": "Arkansas",
+    "latitude": 34.9513,
+    "longitude": -92.3809
+  },
+  {
+    "id": 140968,
+    "name": "Arizona",
+    "latitude": 33.7712,
+    "longitude": -111.3877
+  },
+  {
+    "id": 150968,
+    "name": "California",
+    "latitude": 36.17,
+    "longitude": -119.7462
+  },
+  {
+    "id": 160968,
+    "name": "Colorado",
+    "latitude": 39.0646,
+    "longitude": -105.3272
+  },
+  {
+    "id": 170968,
+    "name": "Connecticut",
+    "latitude": 41.494852,
+    "longitude": -72.874365
+  },
+  {
+    "id": 180968,
+    "name": "Delaware",
+    "latitude": 39.3498,
+    "longitude": -75.5148
+  },
+  {
+    "id": 190968,
+    "name": "Florida",
+    "latitude": 27.8333,
+    "longitude": -81.717
+  },
+  {
+    "id": 100968,
+    "name": "Georgia",
+    "latitude": 32.9866,
+    "longitude": -83.6487
+  },
+  {
+    "id": 111968,
+    "name": "Hawaii",
+    "latitude": 21.1098,
+    "longitude": -157.5311
+  },
+  {
+    "id": 112968,
+    "name": "Iowa",
+    "latitude": 42.0046,
+    "longitude": -93.214
+  },
+  {
+    "id": 113968,
+    "name": "Idaho",
+    "latitude": 44.2394,
+    "longitude": -114.5103
+  },
+  {
+    "id": 114968,
+    "name": "Illinois",
+    "latitude": 40.3363,
+    "longitude": -89.0022
+  },
+  {
+    "id": 115968,
+    "name": "Indiana",
+    "latitude": 39.8647,
+    "longitude": -86.2604
+  },
+  {
+    "id": 116968,
+    "name": "Kansas",
+    "latitude": 38.5111,
+    "longitude": -96.8005
+  },
+  {
+    "id": 117968,
+    "name": "Kentucky",
+    "latitude": 37.669,
+    "longitude": -84.6514
+  },
+  {
+    "id": 118968,
+    "name": "Louisiana",
+    "latitude": 31.1801,
+    "longitude": -91.8749
+  },
+  {
+    "id": 119968,
+    "name": "Massachusetts",
+    "latitude": 42.2373,
+    "longitude": -71.5314
+  },
+  {
+    "id": 110368,
+    "name": "Maryland",
+    "latitude": 39.0724,
+    "longitude": -76.7902
+  },
+  {
+    "id": 110268,
+    "name": "Maine",
+    "latitude": 44.6074,
+    "longitude": -69.3977
+  },
+  {
+    "id": 110168,
+    "name": "Michigan",
+    "latitude": 43.3504,
+    "longitude": -84.5603
+  },
+  {
+    "id": 110468,
+    "name": "Minnesota",
+    "latitude": 45.7326,
+    "longitude": -93.9196
+  },
+  {
+    "id": 110568,
+    "name": "Missouri",
+    "latitude": 38.4623,
+    "longitude": -92.302
+  },
+  {
+    "id": 110668,
+    "name": "Mississippi",
+    "latitude": 32.7673,
+    "longitude": -89.6812
+  },
+  {
+    "id": 110768,
+    "name": "Montana",
+    "latitude": 46.9048,
+    "longitude": -110.3261
+  },
+  {
+    "id": 110868,
+    "name": "North Carolina",
+    "latitude": 35.6411,
+    "longitude": -79.8431
+  },
+  {
+    "id": 110968,
+    "name": "North Dakota",
+    "latitude": 47.5362,
+    "longitude": -99.793
+  },
+  {
+    "id": 110068,
+    "name": "Nebraska",
+    "latitude": 41.1289,
+    "longitude": -98.2883
+  },
+  {
+    "id": 110918,
+    "name": "New Hampshire",
+    "latitude": 43.4108,
+    "longitude": -71.5653
+  },
+  {
+    "id": 110928,
+    "name": "New Jersey",
+    "latitude": 40.314,
+    "longitude": -74.5089
+  },
+  {
+    "id": 110938,
+    "name": "New Mexico",
+    "latitude": 34.8375,
+    "longitude": -106.2371
+  },
+  {
+    "id": 110948,
+    "name": "Nevada",
+    "latitude": 38.4199,
+    "longitude": -117.1219
+  },
+  {
+    "id": 110958,
+    "name": "New York",
+    "latitude": 40.73061,
+    "longitude": -73.935242
+  },
+  {
+    "id": 110968,
+    "name": "Ohio",
+    "latitude": 40.3736,
+    "longitude": -82.7755
+  },
+  {
+    "id": 110978,
+    "name": "Oklahoma",
+    "latitude": 35.5376,
+    "longitude": -96.9247
+  },
+  {
+    "id": 110988,
+    "name": "Oregon",
+    "latitude": 44.5672,
+    "longitude": -122.1269
+  },
+  {
+    "id": 110998,
+    "name": "Pennsylvania",
+    "latitude": 40.5773,
+    "longitude": -77.264
+  },
+  {
+    "id": 110908,
+    "name": "Rhode Island",
+    "latitude": 41.6772,
+    "longitude": -71.5101
+  },
+  {
+    "id": 110961,
+    "name": "South Carolina",
+    "latitude": 33.8191,
+    "longitude": -80.9066
+  },
+  {
+    "id": 110962,
+    "name": "South Dakota",
+    "latitude": 44.2853,
+    "longitude": -99.4632
+  },
+  {
+    "id": 110963,
+    "name": "Tennessee",
+    "latitude": 35.7449,
+    "longitude": -86.7489
+  },
+  {
+    "id": 110964,
+    "name": "Texas",
+    "latitude": 31.106,
+    "longitude": -97.6475
+  },
+  {
+    "id": 110965,
+    "name": "Utah",
+    "latitude": 40.1135,
+    "longitude": -111.8535
+  },
+  {
+    "id": 110966,
+    "name": "Virginia",
+    "latitude": 37.768,
+    "longitude": -78.2057
+  },
+  {
+    "id": 110967,
+    "name": "Vermont",
+    "latitude": 44.0407,
+    "longitude": -72.7093
+  },
+  {
+    "id": 110955,
+    "name": "Washington",
+    "latitude": 47.3917,
+    "longitude": -121.5708
+  },
+  {
+    "id": 110969,
+    "name": "Wisconsin",
+    "latitude": 44.2563,
+    "longitude": -89.6385
+  },
+  {
+    "id": 810968,
+    "name": "West Virginia",
+    "latitude": 38.468,
+    "longitude": -80.9696
+  },
+  {
+    "id": 812968,
+    "name": "Wyoming",
+    "latitude": 42.7475,
+    "longitude": -107.2085
+  },
+  {
+    "id": 898768,
+    "name": "District of Columbia",
+    "latitude": 38.8974,
+    "longitude": -77.0268
+  },
+  {
+    "id": 145668,
+    "name": "Puerto Rico",
+    "latitude": 18.2491,
+    "longitude": -66.628
+  }
+]

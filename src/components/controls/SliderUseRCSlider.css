@@ -1,0 +1,61 @@
+.rc-slider-track {
+  background-color: #64e1dc;
+  height: 2px;
+}
+
+.rc-slider-rail {
+  height: 2px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.rc-slider-handle {
+  background-color: #64e1dc;
+  border: none;
+}
+
+.rc-slider-dot-active {
+  border: 2px solid #64e1dc;
+  background-color: #262f47;
+  bottom: -3px;
+}
+
+.rc-slider-dot {
+  border: 2px solid #64e1dc;
+  background-color: #262f47;
+  bottom: -3px;
+}
+
+.rc-slider-step {
+  height: 2px;
+  background: none;
+}
+
+.rc-slider-tooltip-inner {
+  background-image: url('https://anima-uploads.s3.amazonaws.com/projects/6183b51d6b5cbed22d564e6f/releases/618a2564427ddf94bbb47d12/img/union-1@2x.svg');
+  background-repeat: no-repeat;
+  background-size: container;
+  width: 21.85px;
+  height: 30.77px;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  font-size: 10px;
+  font-weight: 700;
+  color: #06102b;
+  font-family: var(--font-family-montserrat);
+}
+
+.rc-slider-tooltip-placement-top .rc-slider-tooltip-arrow {
+  display: none;
+}
+
+.rc-slider-tooltip-placement-top {
+  padding: 4px 0 4px 0;
+}
+
+.rc-slider-mark-text,
+.rc-slider-mark-text-active {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: var(--font-family-montserrat);
+}
