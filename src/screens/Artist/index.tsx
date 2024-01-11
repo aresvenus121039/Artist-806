@@ -147,6 +147,7 @@ export const ArtistScreen = (props: ArtistScreenProps) => {
     <Box
       sx={{
         overflowX: 'hidden',
+        overflowY: 'hidden',
         position: 'relative',
         marginBottom: '30rem',
       }}
