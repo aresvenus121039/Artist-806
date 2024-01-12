@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { styled, Button } from '@mui/material';
 
 export const SignupButton = (props: any) => {
-  return <MuiButton onClick={props.onClick}>sign up</MuiButton>;
+  return <MuiButton onClick={props.onClick}>SIGN UP</MuiButton>;
 };
 
 SignupButton.defaultProps = {
