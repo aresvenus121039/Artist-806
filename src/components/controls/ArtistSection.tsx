@@ -19,6 +19,7 @@ const useStyles = makeStyles((theme: any) => ({
     fontStyle: 'normal',
     letterSpacing: '2px',
     textTransform: 'uppercase',
+    lineHeight: '60px',
   },
   artistName: {
     [theme.breakpoints.down('md')]: {

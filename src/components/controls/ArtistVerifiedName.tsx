@@ -63,6 +63,13 @@ const useStyles = makeStyles((theme: any) => ({
       '-webkit-linear-gradient(151deg, #D8D8D8 36.81%, #5700FF 115.71%)',
     WebkitBackgroundClip: 'text',
     WebkitTextFillColor: 'transparent',
+    fontFamily: 'var(--font-family-formula-condensed)',
+    fontSize: '100px',
+    fontStyle: 'normal',
+    fontWeight: 700,
+    lineHeight: '100%',
+    letterSpacing: '4px',
+    textTransform: 'uppercase',
   },
   verified: {
     backgroundColor: 'var(--alto2)',

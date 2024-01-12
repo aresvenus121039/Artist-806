@@ -111,11 +111,12 @@ const PortfolioSection: React.FC<PortfolioSectionProps> = ({
         <Typography
           sx={{
             marginBottom: '16px',
-            fontFamily: 'var(--font-family-montserrat)',
+            fontFamily: 'Roboto',
             fontWeight: '400',
             fontStyle: 'normal',
             fontSize: '22px',
             textTransform: 'lowercase',
+            lineHeight: '26px',
           }}
         >
           portfolio

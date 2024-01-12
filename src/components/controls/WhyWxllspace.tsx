@@ -65,7 +65,7 @@ const WhyWxllspaceSection = () => {
         <Typography
           sx={{
             marginBottom: '16px',
-            fontFamily: 'var(--font-family-formula-montserrat)',
+            fontFamily: 'Roboto',
             fontWeight: '400',
             fontStyle: 'normal',
             fontSize: '22px',
@@ -111,11 +111,12 @@ const WhyWxllspaceSection = () => {
           sx={{
             marginBottom: '48px',
             fontSize: '16px',
-            lineHeight: 1.5,
+            lineHeight: '25px',
             fontWeight: 400,
-            fontFamily: 'var(--font-family-montserrat)',
+            fontFamily: 'Roboto',
             fontStyle: 'normal',
             maxWidth: '900px',
+            color: '#FFF',
           }}
         >
           Stop wasting precious time and energy pounding the streets. Browse the
@@ -191,10 +192,10 @@ const WhyWxllspaceSection = () => {
                   sx={{
                     maxWidth: '450px',
                     color: '#fff',
-                    fontFamily: 'var(--font-family-montserrat)',
+                    fontFamily: 'Roboto',
                     fontSize: '16px',
                     fontWeight: '400',
-                    lineHeight: '24px',
+                    lineHeight: '25px',
                   }}
                 >
                   {item.description}

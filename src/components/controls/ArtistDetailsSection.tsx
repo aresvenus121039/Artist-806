@@ -234,7 +234,7 @@ const ArtistDetailsSection: React.FC<ArtistDetailsSectionProps> = (props) => {
                         <Typography
                           sx={{
                             color: '#F1F0F0',
-                            fontFamily: 'var(--font-family-montserrat)',
+                            fontFamily: 'var(--font-family-formula-condensed)',
                             fontWeight: '700',
                             fontStyle: 'normal',
                             fontSize: '22px',

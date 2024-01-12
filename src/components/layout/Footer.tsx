@@ -157,9 +157,20 @@ const Footer = () => {
       <Grid container direction="column">
         <Grid item xs={12} sx={{ marginBottom: '24px' }}>
           <Container maxWidth={false}>
-            <Grid container rowSpacing={4}>
+            <Grid container>
               <Grid item xs={12} md={6}>
-                <Typography component="h3" className={classes.typography}>
+                <Typography
+                  component={'h2'}
+                  sx={{
+                    fontFamily: 'var(--font-family-formulacondensed)',
+                    fontWeight: '700',
+                    color: '#F1F0F0',
+                    fontSize: '40px',
+                    letterSpacing: '1.6px',
+                    textTransform: 'uppercase',
+                    lineHeight: '48px',
+                  }}
+                >
                   Want To Stay In The Loop?
                 </Typography>
 
@@ -201,6 +212,7 @@ const Footer = () => {
                   <Box sx={{}}>
                     <Button
                       sx={{
+                        fontFamily: 'Roboto',
                         marginLeft: '8px',
                         paddingRight: '24px',
                         paddingLeft: '24px',
@@ -233,12 +245,27 @@ const Footer = () => {
                 </Box>
               </Grid>
 
-              <Grid item xs={12} md={6}>
+              <Grid
+                item
+                xs={12}
+                md={6}
+                sx={{
+                  display: 'flex',
+                  justifyContent: {
+                    md: 'end',
+                    xs: 'center',
+                  },
+                  marginTop: {
+                    md: '0px',
+                    xs: '30px',
+                  },
+                }}
+              >
                 <Box
                   sx={{
                     width: {
-                      xs: '100%',
                       md: '60%',
+                      xs: '90%',
                     },
                     display: 'flex',
                   }}
@@ -270,7 +297,18 @@ const Footer = () => {
         <Grid item xs={12}>
           <Container maxWidth={false}>
             <Grid container direction="column">
-              <Grid item xs={12} sx={{ marginBottom: '60px' }}>
+              <Grid
+                item
+                xs={12}
+                sx={{
+                  marginBottom: '60px',
+                  display: 'flex',
+                  justifyContent: {
+                    md: 'flex-start',
+                    xs: 'center',
+                  },
+                }}
+              >
                 {socialLinks.map((link, index) => (
                   <Box
                     sx={{ display: 'inline-flex', marginRight: '24px' }}

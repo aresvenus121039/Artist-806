@@ -86,6 +86,7 @@ interface BurgerMenuBtnProps {
 }
 
 interface NavBarProps {
+  isMarketplaceScreen?: boolean;
   window?: () => Window;
 }
 
@@ -115,7 +116,7 @@ const BurgerMenuBtn = (props: BurgerMenuBtnProps) => {
   );
 };
 
-const NavBar = () => {
+const NavBar = ({ isMarketplaceScreen }: NavBarProps) => {
   const [anchorElNav, setAnchorElNav] = useState(null);
   const isUserSignedIn = useSelector(selectIsUserSignedIn);
   const userDetail = useSelector(selectSignedInUser);
@@ -135,7 +136,7 @@ const NavBar = () => {
       : '#';
   const profileName =
     userDetail?.role === USER_TYPE.ARTIST
-      ? userDetail.artist_name
+      ? userDetail.artistName
       : userDetail?.role === USER_TYPE.WXLLOWNER
       ? userDetail.wall_name
       : 'log in';
@@ -165,9 +166,9 @@ const NavBar = () => {
           width: '100%',
           backgroundColor: 'transparent',
           color: 'var(--white)',
-          fontFamily: 'var(--font-family-montserrat)',
-          fontSize: 'var(--font-size-l)',
-          fontWeight: 700,
+          fontFamily: 'Roboto',
+          fontSize: 'var(--font-size-m)',
+          fontWeight: 600,
           fontStyle: 'normal',
           zIndex: 1000,
           boxShadow: 'none',
@@ -202,9 +203,9 @@ const NavBar = () => {
                   <Link
                     style={{
                       color: '#FFF',
-                      fontFamily: 'var(--font-family-montserrat)',
-                      fontSize: 'var(--font-size-l)',
-                      fontWeight: 400,
+                      fontFamily: 'Roboto !important',
+                      fontSize: 'var(--font-size-m)',
+                      fontWeight: 600,
                       fontStyle: 'normal',
                       textDecoration: 'none',
                     }}
@@ -219,8 +220,8 @@ const NavBar = () => {
                     style={{
                       color: '#FFF',
                       fontFamily: 'var(--font-family-montserrat)',
-                      fontSize: 'var(--font-size-l)',
-                      fontWeight: 400,
+                      fontSize: 'var(--font-size-m)',
+                      fontWeight: 600,
                       fontStyle: 'normal',
                       textDecoration: 'none',
                     }}
@@ -239,8 +240,8 @@ const NavBar = () => {
                     style={{
                       color: '#FFF',
                       fontFamily: 'var(--font-family-montserrat)',
-                      fontSize: 'var(--font-size-l)',
-                      fontWeight: 400,
+                      fontSize: 'var(--font-size-m)',
+                      fontWeight: 600,
                       fontStyle: 'normal',
                       textDecoration: 'none',
                     }}
@@ -259,7 +260,7 @@ const NavBar = () => {
                     style={{
                       color: '#FFF',
                       fontFamily: 'var(--font-family-montserrat)',
-                      fontSize: 'var(--font-size-l)',
+                      fontSize: 'var(--font-size-m)',
                       fontWeight: 400,
                       fontStyle: 'normal',
                       textDecoration: 'none',
@@ -667,17 +668,18 @@ const LoginAndSignupContainer = ({ children }: ChildrenProps) => {
 
 const NavButton = styled(Button)({
   minWidth: '30px',
-  fontFamily: 'var(--font-family-montserrat)',
-  fontSize: 'var(--font-size-l)',
+  fontFamily: 'Roboto',
+  fontSize: '14px',
   fontStyle: 'normal',
-  fontWeight: 400,
-  lineHeight: '16px',
-  padding: '12px 24px',
-  textTransform: 'lowercase',
+  fontWeight: 600,
+  lineHeight: 'normal',
+  padding: '6px 12px',
+  textTransform: 'uppercase',
   borderRadius: 'var(--radius-full)',
   border: '1px solid transparent',
   boxShadow: 'none',
-  color: 'var(--white)',
+  color: '#D8D8D8',
+  letterSpacing: '2.24px',
   background: 'transparent',
   '&:hover': {
     boxShadow: '0px 0px 25px 0px rgba(255, 255, 255, 0.25)',
@@ -689,6 +691,10 @@ const NavButton = styled(Button)({
     border: '1px solid var(--white)',
     background: 'var(--white)',
     color: 'var(--main-dark)',
+  },
+  '@media(max-width: 1200px)': {
+    fontSize: '9px',
+    padding: '6px',
   },
 });
 
