@@ -199,7 +199,7 @@ export const ArtistScreen = (props: ArtistScreenProps) => {
           zIndex: 1,
           overflow: { xs: 'hidden', lg: 'visible' },
           maxWidth: {
-            md: '90%',
+            md: '93%',
             xs: '100%',
           },
         }}

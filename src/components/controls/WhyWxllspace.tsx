@@ -50,6 +50,7 @@ const WhyWxllspaceSection = () => {
       maxWidth={false}
       sx={{
         position: 'relative',
+        padding: '0px 150px !important'
       }}
     >
       <motion.div

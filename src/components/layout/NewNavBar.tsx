@@ -311,7 +311,7 @@ const NavBar = ({ isMarketplaceScreen }: NavBarProps) => {
                         : 'https://staging.wxllspace.com/contact'
                     }
                   >
-                    <NavButton>contacts</NavButton>
+                    <NavButton>contact</NavButton>
                   </a>
                 </CustomMenuItem>
               </Box>
