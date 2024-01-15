@@ -175,7 +175,7 @@ const WhyWxllspaceSection = () => {
                   component="h4"
                   sx={{
                     color: '#fff',
-                    fontFamily: 'var(--font-family-formula-condesned)',
+                    fontFamily: 'var(--font-family-formula-condensed)',
                     fontSize: {
                       xs: '14px',
                       sm: '22px',

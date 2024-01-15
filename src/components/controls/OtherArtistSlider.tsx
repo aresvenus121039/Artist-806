@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import _ from 'lodash';
+import Link from 'next/link';
 import { styled } from '@mui/system';
 import { makeStyles } from '@mui/styles';
 import Slider from 'react-slick';
@@ -10,6 +11,7 @@ import ButtonUnstyled, {
 import { Box, CardMedia, Typography, Grid } from '@mui/material';
 import { cloudflareImage } from '@/utility/images';
 import { Right_square } from './../icons/index';
+import { setRTLTextPlugin } from 'react-map-gl';
 
 const useStyles = makeStyles((theme: any) => ({
   artistName: {
@@ -76,7 +78,9 @@ function PrevArrowButton(props: any) {
 const ArtistCard = ({ artist }: { artist: Record<string, any> }) => {
   const classes = useStyles();
   const images = _.get(artist, 'artist_image', []) || [];
-  const names = _.get(artist, 'artistName', []) || [];
+  const names = _.get(artist, 'artist_name', []) || [];
+  const slug = _.get(artist, 'slug', []) || [];
+  
 
   return (
     <Box
@@ -89,6 +93,9 @@ const ArtistCard = ({ artist }: { artist: Record<string, any> }) => {
       }}
       className={classes.wrapGrid}
     >
+      <Link href={`/artist/${slug}`}
+        style={{textDecoration: 'none'}}
+      >
       <CardMedia
         component="img"
         image={images.length > 0 ? cloudflareImage(images[0].location) : ''}
@@ -101,6 +108,7 @@ const ArtistCard = ({ artist }: { artist: Record<string, any> }) => {
           marginBottom: '14px',
         }}
       />
+      
       <Box
         sx={{
           position: 'absolute',
@@ -130,6 +138,7 @@ const ArtistCard = ({ artist }: { artist: Record<string, any> }) => {
           </Box>
         )}
       </Box>
+      </Link>
     </Box>
   );
 };
