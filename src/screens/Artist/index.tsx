@@ -153,44 +153,10 @@ export const ArtistScreen = (props: ArtistScreenProps) => {
       }}
     >
       {/* blur */}
-      <Box
-        sx={{
-          width: '268px',
-          height: '268px',
-          backgroundColor: '#6AB3DF',
-          filter: 'blur(60px) opacity(0.5);',
-          position: 'absolute',
-          left: {
-            xs: '-240px',
-            sm: 0,
-          },
-          top: {
-            xs: '0',
-            sm: '270px',
-          },
-          zIndex: -100,
-        }}
-      />
+      
 
       {/* blur */}
-      <Box
-        sx={{
-          width: '268px',
-          height: '268px',
-          backgroundColor: '#B14EFF',
-          filter: 'blur(60px) opacity(0.5);',
-          position: 'absolute',
-          right: {
-            xs: '-240px',
-            sm: 0,
-          },
-          top: {
-            xs: '600px',
-            sm: '140px',
-          },
-          zIndex: -100,
-        }}
-      />
+      
 
       <Container
         maxWidth={false}
@@ -204,6 +170,21 @@ export const ArtistScreen = (props: ArtistScreenProps) => {
           },
         }}
       >
+        <Box
+          sx={{
+            transform: 'rotate(-65.047deg)',
+            width: '1096px',
+            height: '839px',
+            filter: 'blur(200px)',
+            position: 'absolute',
+            left: '-1%',
+            top: '-9%',
+            zIndex: -100,
+            borderRadius: '133px',
+            background: 'linear-gradient(348deg, #40A4E2 9.01%, #B14EFF 90.87%)'
+          }}
+        />
+
         <Grid container spacing={2}>
           {/* Artist Details Section */}
           <Grid item xs={12} md={12} lg={12} xl={12}>
@@ -214,8 +195,23 @@ export const ArtistScreen = (props: ArtistScreenProps) => {
                   md: '210px',
                   xs: '140px',
                 },
+                position: 'relative'
               }}
             >
+              <Box
+                sx={{
+                  transform: 'rotate(-15deg)',
+                  width: '994px',
+                  height: '518px',
+                  filter: 'blur(240px)',
+                  position: 'absolute',
+                  left: '-58%',
+                  top: '75%',
+                  zIndex: -100,
+                  borderRadius: '133px',
+                  background: 'linear-gradient(348deg, #40A4E2 9.01%, #B14EFF 90.87%)'
+                }}
+              />
               <ArtistDetailsSection artist={artistDetails.data} />
             </Box>
           </Grid>
@@ -229,8 +225,23 @@ export const ArtistScreen = (props: ArtistScreenProps) => {
                   md: '96px',
                   xs: '75px',
                 },
+                position: 'relative'
               }}
             >
+              <Box
+                sx={{
+                  transform: 'rotate(-14.9deg)',
+                  width: '1211px',
+                  height: '833px',
+                  filter: 'blur(435px)',
+                  position: 'absolute',
+                  right: '-60%',
+                  top: '0%',
+                  zIndex: -100,
+                  borderRadius: '133px',
+                  background: 'linear-gradient(348deg, #40A4E2 9.01%, #B14EFF 90.87%)'
+                }}
+              />
               <LocationSection artist={artistDetails.data} />
             </Box>
           </Grid>
@@ -267,8 +278,23 @@ export const ArtistScreen = (props: ArtistScreenProps) => {
                   md: '120px',
                   xs: '100px',
                 },
+                position: 'relative'
               }}
             >
+              <Box
+                sx={{
+                  width: '433px',
+                  height: '436px',
+                  background: 'linear-gradient(348deg, #40A4E2 9.01%, #B14EFF 90.87%)',
+                  filter: 'blur(240px)',
+                  position: 'absolute',
+                  left: '-11%',
+                  top: '4%',
+                  transform: 'rotate(-31.922deg)',
+                  zIndex: -100,
+                  borderRadius: '133px'
+                }}
+              />
               <WhyWxllspaceSection />
             </Box>
           </Grid>

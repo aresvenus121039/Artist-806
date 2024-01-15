@@ -140,32 +140,10 @@ const LocationSection: React.FC<LocationSectionProps> = ({ artist }) => {
             </Typography>
           </Box>
         </motion.div>
-        <Box
-          sx={{
-            width: '268px',
-            height: '268px',
-            backgroundColor: '#B14EFF',
-            filter: 'blur(60px) opacity(0.5);',
-            position: 'absolute',
-            left: 0,
-            top: 0,
-            zIndex: 0,
-          }}
-        ></Box>
+        
 
         {/* blur */}
-        <Box
-          sx={{
-            width: '268px',
-            height: '268px',
-            backgroundColor: '#6AB3DF',
-            filter: 'blur(60px) opacity(0.5);',
-            position: 'absolute',
-            right: 0,
-            bottom: 0,
-            zIndex: 0,
-          }}
-        ></Box>
+        
 
         <Box
           sx={{
