@@ -149,18 +149,7 @@ const ArtistSection: React.FC<ArtistSectionProps> = ({ gallery = [] }) => {
       </motion.div>
 
       {/* blur */}
-      <Box
-        sx={{
-          width: '268px',
-          height: '268px',
-          backgroundColor: '#6AB3DF',
-          filter: 'blur(60px) opacity(0.5);',
-          position: 'absolute',
-          right: 0,
-          bottom: 0,
-          zIndex: -10,
-        }}
-      ></Box>
+      
     </Container>
   );
 };
