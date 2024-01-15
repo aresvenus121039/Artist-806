@@ -124,7 +124,7 @@ const ArtistCard = ({ artist }: { artist: Record<string, any> }) => {
             <Typography
               sx={{
                 position: 'absolute',
-                width: '250px',
+                width: '300px',
                 left: '-200px',
                 top: '150px',
                 '@media(max-width: 1900px)': {
