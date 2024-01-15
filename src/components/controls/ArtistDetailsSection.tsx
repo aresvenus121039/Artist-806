@@ -150,7 +150,7 @@ const ArtistDetailsSection: React.FC<ArtistDetailsSectionProps> = (props) => {
       <Container maxWidth={false}>
         <Box className={classes.bio} sx={{ margin: '0px 100px' }}>
           <Grid container spacing={2}>
-            <Grid item md={5} xs={6}>
+            <Grid item md={5} xs={6} sx={{height: '100%'}}>
               {/* profile picture */}
               <motion.div
                 initial={{ opacity: 0, y: 50, height: '100%' }}

@@ -210,7 +210,7 @@ const MuralsSlider: FC<MuralsSliderProps> = ({ murals }) => {
     arrows: false,
     infinite: true,
     fade: true,
-    speed: 900,
+    speed: 100,
     autoplay: false,
     autoplaySpeed: 5000,
     slidesToShow: 1,
